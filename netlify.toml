@@ -1,0 +1,11 @@
+[[redirects]]
+from = '/trend_proxy/*'
+to = 'https://todayscore.co.kr/:splat'
+status = 200
+force = true
+
+[[redirects]]
+from = '/news_proxy/*'
+to = 'https://www.bbc.com/korean/:splat'
+status = 200
+force = true
